@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "bookid": "1001",
+      "background": "elec_book.jpg"
+    },
+    {
+      "bookid": "1002",
+      "background": "student_book.jpg"
+    },
+    {
+      "bookid": "1003",
+      "background": "child_book.jpg"
+    }
+  ]
+}
