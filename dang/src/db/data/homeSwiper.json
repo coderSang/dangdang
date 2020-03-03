@@ -1,5 +1,5 @@
 {
-  "images": [
+  "swiperImages": [
     {
       "bookid": "1001",
       "background": "elec_book.jpg"
@@ -11,6 +11,38 @@
     {
       "bookid": "1003",
       "background": "child_book.jpg"
+    }
+  ],
+  "recommend": [
+    {
+      "background": "new_book.png"
+    },
+    {
+      "background": "special_offer.png"
+    },
+    {
+      "background": "promotion.png"
+    },
+    {
+      "background": "children_books.png"
+    },
+    {
+      "background": "popular.png"
+    },
+    {
+      "background": "assemble.png"
+    },
+    {
+      "background": "supermarket.png"
+    },
+    {
+      "background": "cloud_read.jpg"
+    },
+    {
+      "background": "close.jpg"
+    },
+    {
+      "background": "center.png"
     }
   ]
 }
