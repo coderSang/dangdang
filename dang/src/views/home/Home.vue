@@ -7,6 +7,7 @@
     </div>
     <img src="~assets/images/home/mao_title.jpg" style="width: 100%" alt="">
     <timer></timer>
+    <transverse-scroller :transScroll="transScroll"></transverse-scroller>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 
   import HomeSwiper from "./childComponents/HomeSwiper";
   import HomeRecommend from "./childComponents/HomeRecommend";
+  import TransverseScroller from "./childComponents/TransverseScroller"
 
   import {homeSwiperRequest} from "network/home"
 
@@ -25,7 +27,8 @@
     data() {
       return {
         img: [],
-        recommend :[]
+        recommend :[],
+        transScroll:[]
       }
     },
     components: {
@@ -34,7 +37,8 @@
       Timer,
 
       HomeSwiper,
-      HomeRecommend
+      HomeRecommend,
+      TransverseScroller
     },
     created() {
       this.homeRequest()
@@ -44,7 +48,7 @@
         homeSwiperRequest().then(res => {
           this.recommend = res.data.recommend
           this.img = res.data.swiperImages
-
+          this.transScroll = res.data.todaySeckill
         })
       }
     }
