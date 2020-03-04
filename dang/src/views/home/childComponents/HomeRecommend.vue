@@ -30,10 +30,10 @@
     position: relative;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
   }
   .line{
-
-    width: 100vw;
+    width: 20vw;
   }
   .image{
     height: 2rem;

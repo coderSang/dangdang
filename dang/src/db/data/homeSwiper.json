@@ -45,6 +45,7 @@
       "background": "center.png"
     }
   ],
+  "seckillTitle": "http://img62.ddimg.cn/upload_img/00707/mobile/mao_title.jpg",
   "todaySeckill":[
     {
       "url":"http://img3m2.ddimg.cn/38/26/1583020532-1_h_1.jpg",
@@ -88,5 +89,79 @@
       "new":"1",
       "old":"159.00"
     }
-  ]
+  ],
+  "homeBook": {
+    "title": "http://img61.ddimg.cn/upload_img/00705/yhj/tslc-bt.jpg",
+    "contents": ["当当书城","电子书","网络文学"],
+    "highlyRecommended": "http://img63.ddimg.cn/upload_img/00796/1/1242x332-1582889527.jpg",
+    "mainContents": [
+      {
+        "type": "文艺小情节",
+        "info": "书中大情怀",
+        "url": "http://img63.ddimg.cn/upload_img/00796/1/11.18-1575272441.png"
+      },
+      {
+        "type": "电子书",
+        "info": "每满30减15",
+        "url": "http://img63.ddimg.cn/ddreader/dangebook/02240229_500x500.jpg"
+      },
+      {
+        "type": "万种童书",
+        "info": "阅读陪伴成长",
+        "url": "http://img60.ddimg.cn/upload_img/00796/1/10.28-1575272475.png"
+      },
+      {
+        "type": "阅享新生活",
+        "info": "精彩无限",
+        "url": "http://img62.ddimg.cn/upload_img/00796/1/9.12-1568701928.png"
+      },
+      {
+        "type": "人文社科",
+        "info": "知史知今",
+        "url": "http://img61.ddimg.cn/upload_img/00796/1/10.22-1575272532.png"
+      },
+      {
+        "type": "中小学教辅",
+        "info": "向上吧少年",
+        "url": "http://img62.ddimg.cn/upload_img/00796/1/10.15-1575272579.png"
+      }
+    ]
+  },
+  "closeBag": {
+    "title": "http://img61.ddimg.cn/upload_img/00757/shuang11/biaoti-1540452487.jpg",
+    "contents": ["服装品牌榜单","服装上新","服装馆"],
+    "highlyRecommended":"http://img62.ddimg.cn/upload_img/00757/LOGO/loucengbanner-1565921661.jpg",
+    "mainContents": [
+      {
+        "type": "巴帝巴帝",
+        "info": "3件2折",
+        "url": "http://img62.ddimg.cn/upload_img/00601/111/500badi-1565008942.jpg"
+      },
+      {
+        "type": "学生书包",
+        "info": "1件2.5折",
+        "url": "http://img61.ddimg.cn/upload_img/00601/111/500kalayang-1565010129.jpg"
+      },
+      {
+        "type": "芬腾睡衣",
+        "info": "限时1件3折",
+        "url": "http://img55.ddimg.cn/186920088342395_y.jpg"
+      },
+      {
+        "type": "暑假季",
+        "info": "珠宝饰品直降",
+        "url": "http://img53.ddimg.cn/155170066039963_y.jpg"
+      },
+      {
+        "type": "达芙妮清仓",
+        "info": "限时2件2折",
+        "url": "http://img55.ddimg.cn/182870066617395_y.jpg"
+      },
+      {
+        "type": "361度",
+        "info": "折上2件4折",
+        "url": "http://img51.ddimg.cn/198970066388831_y.jpg"
+      }
+    ]
+  }
 }
