@@ -4,8 +4,8 @@
     <advert-title :url="homeBC.title"></advert-title>
     <advert-category :contents="homeBC.contents"></advert-category>
     <advert-title :url="homeBC.highlyRecommended"></advert-title>
-    <two-clos-content :mainContents="homeBC.mainContents.slice(4,6)"></two-clos-content>
-    <four-clos-content :mainContents="homeBC.mainContents.slice(0,4)"></four-clos-content>
+    <two-clos-content :mainContents="getTwoClo()"></two-clos-content>
+    <four-clos-content :mainContents="getFourClo()"></four-clos-content>
   </div>
 </template>
 
@@ -34,8 +34,26 @@
             "mainContents": []
           }
         }
+      },
+    },
+    methods:{
+      getTwoClo(){
+        if(this.homeBC.mainContents!==undefined){
+          return this.homeBC.mainContents.slice(4,6)
+        }
+        else{
+          return []
+        }
+      },
+      getFourClo(){
+        if(this.homeBC.mainContents!==undefined){
+          return this.homeBC.mainContents.slice(0,4)
+        }
+        else{
+          return []
+        }
       }
-    }
+    },
   }
 </script>
 

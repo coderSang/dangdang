@@ -9,6 +9,7 @@
       <transverse-scroller :transScroll="transScroll"></transverse-scroller>
       <home-book :homeBook="homeBook"></home-book>
       <home-bag-close :homeBC="homeBC"></home-bag-close>
+      <home-guess></home-guess>
     </scroller>
     <back-top @click.native="backTopClick" v-show="isShowBackTop" />
   </div>
@@ -26,6 +27,7 @@
   import TransverseScroller from "./childComponents/TransverseScroller"
   import HomeBook from "./childComponents/HomeBook";
   import HomeBagClose from "./childComponents/HomeBagClose";
+  import HomeGuess from "./childComponents/HomeGuess"
 
   import {homeSwiperRequest} from "network/home"
 
@@ -53,7 +55,8 @@
       HomeRecommend,
       TransverseScroller,
       HomeBook,
-      HomeBagClose
+      HomeBagClose,
+      HomeGuess
     },
     created() {
       this.homeRequest()
@@ -88,7 +91,7 @@
     overflow: hidden;
     position: absolute;
     top: 80px;
-    bottom: 85px;
+    bottom: 95px;
     right: 0;
     left: 0;
   }
