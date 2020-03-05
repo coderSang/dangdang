@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 
 var homeSwiper = require('./src/db/data/homeSwiper.json')  //本地json文件数据
+var detile = require('./src/db/data/detile.json')  //本地json文件数据
+
 var apiRoutes = express.Router();
 app.use('/api',apiRoutes)
 
@@ -37,7 +39,14 @@ module.exports = {
           data: homeSwiper
         })
       })
+      app.get('/api/detile', (req, res) => {
+        res.json({
+          errno: 0,   // 这里是你的json内容
+          data: detile
+        })
+      })
     },
+
     open: process.platform === 'darwin',
     host: '0.0.0.0',
     port: 8080,

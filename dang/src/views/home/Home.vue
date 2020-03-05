@@ -10,6 +10,7 @@
       <home-book :homeBook="homeBook"></home-book>
       <home-bag-close :homeBC="homeBC"></home-bag-close>
       <home-guess></home-guess>
+      <detile-list :detiles="detileList"></detile-list>
     </scroller>
     <back-top @click.native="backTopClick" v-show="isShowBackTop" />
   </div>
@@ -27,7 +28,8 @@
   import TransverseScroller from "./childComponents/TransverseScroller"
   import HomeBook from "./childComponents/HomeBook";
   import HomeBagClose from "./childComponents/HomeBagClose";
-  import HomeGuess from "./childComponents/HomeGuess"
+  import HomeGuess from "./childComponents/HomeGuess";
+  import DetileList from "./childComponents/DetileList";
 
   import {homeSwiperRequest} from "network/home"
 
@@ -41,6 +43,7 @@
         transScroll:[],
         homeBook:{},
         homeBC:{},
+        detileList:[],
         isShowBackTop: false
       }
     },
@@ -56,7 +59,8 @@
       TransverseScroller,
       HomeBook,
       HomeBagClose,
-      HomeGuess
+      HomeGuess,
+      DetileList
     },
     created() {
       this.homeRequest()
@@ -70,6 +74,7 @@
           this.homeBook =  res.data.homeBook
           this.seckillTitle = res.data.seckillTitle
           this.homeBC = res.data.closeBag
+          this.detileList = res.data.detail
         })
       },
       getPostion(postion) {

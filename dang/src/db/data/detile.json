@@ -1,0 +1,48 @@
+{
+  "detail": [
+    {
+      "iid": "10",
+      "coverImg": "http://img3m4.ddimg.cn/21/16/27932574-1_h_5.jpg",
+      "coverContent": "慢煮生活（汪曾祺经典散文集，执笔75周年白金纪念版！畅销领衔之作，升级回馈）",
+      "coverType": [
+        "当当自营",
+        "预售",
+        "满减"
+      ],
+      "coverMoney": 38.40,
+      "contents": {
+        "listImg": [
+          "http://img3m4.ddimg.cn/21/16/27932574-1_h_5.jpg",
+          "http://img3m4.ddimg.cn/21/16/27932574-2_e_6.jpg",
+          "http://img3m4.ddimg.cn/21/16/27932574-3_e_6.jpg",
+          "http://img3m4.ddimg.cn/21/16/27932574-4_e_3.jpg",
+          "http://img3m4.ddimg.cn/21/16/27932574-5_e_3.jpg"
+        ],
+        "oldPrice": 42.00,
+        "advert": "汪曾祺诞辰100周年特别纪念版，教育部统编《语文》要求阅读，入选课本及中高考试卷，麦家、贾平凹、莫言盛赞。新增《贴秋膘》等名篇，赠送先生亲绘水墨画。先生一生ZUI得意之作，给无论何时都认真生活的你",
+        "about": "http://img58.ddimg.cn/99999990117519118.jpg"
+      }
+    },
+    {
+      "iid": "11",
+      "coverImg": "http://img3m6.ddimg.cn/31/9/27916546-1_h_3.jpg",
+      "coverContent": "一切皆有可能（普利策奖得主、《奥丽芙·基特里奇》作者新作）",
+      "coverType": [
+        "当当自营",
+        "满减"
+      ],
+      "coverMoney": 68.00,
+      "contents": {
+        "listImg": [
+          "http://img3m6.ddimg.cn/31/9/27916546-1_e_3.jpg",
+          "http://img3m6.ddimg.cn/31/9/27916546-2_e_3.jpg",
+          "http://img3m6.ddimg.cn/31/9/27916546-3_e_3.jpg",
+          "http://img3m6.ddimg.cn/31/9/27916546-4_e_3.jpg"
+        ],
+        "oldPrice": 68.00,
+        "advert": "我们拼尽所能，仍爱得不完美，但这没关系。《纽约时报》畅销榜No.1，Goodreads读者票选ZUI佳小说，改编话剧在伦敦及百老汇上演，《纽约时报》、《华盛顿邮报》等多家媒体 “年度图书”",
+        "about": "http://img57.ddimg.cn/99999990053016627.jpg"
+      }
+    }
+  ]
+}

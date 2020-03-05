@@ -8,7 +8,7 @@ const Category = () => import('views/category/Category')
 const Cart = () => import('views/cart/Cart')
 const Profile = () => import('views/profile/Profile')
 const Worth = () => import('views/worth/Worth')
-
+const Info=()=>import('views/info/Info')
 Vue.use(VueRouter)
 
 const routes = [
@@ -19,6 +19,10 @@ const routes = [
   {
     path: '/home',
     component: Home
+  },
+  {
+    path: '/info',
+    component: Info
   },
   {
     path: '/category',
@@ -42,7 +46,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  // base: process.env.BASE_URL,
+  base: process.env.BASE_URL,
   routes
 })
 
