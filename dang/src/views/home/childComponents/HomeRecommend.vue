@@ -20,7 +20,7 @@
     methods: {
       getbackground(item) {
         return require('@/assets/images/home/'+item.background)
-      }
+      },
     },
   }
 </script>

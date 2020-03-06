@@ -1,14 +1,9 @@
 <template>
   <div class="detile" @click="gotoInfo()" :key="item.iid">
-    <button style="width: 100%;height: 100%;" @click="">
-      <img :src="item.coverImg" alt="">
-      <span class="intro">{{item.coverContent}}</span>
-      <span class="type" v-for="type in item.coverType">{{type}}</span>
-      <p style="color:red;font-size: 35px">￥{{item.coverMoney.toFixed(2)}}</p>
-      <!--<div @click="gotoInfo()" style="height: 200px;background: #000;"></div>-->
-      <!--<button >查看详情</button>-->
-    </button>
-
+    <img @click="" :src="item.coverImg" alt="">
+    <span @click="" class="intro">{{item.coverContent}}</span>
+    <span @click="" class="type" v-for="type in item.coverType">{{type}}</span>
+    <p @click="" style="color:red;font-size: 35px">￥{{item.coverMoney.toFixed(2)}}</p>
   </div>
 </template>
 
@@ -25,7 +20,6 @@
     },
     methods:{
       gotoInfo(){
-        console.log("1");
         // 1.获取iid
         let iid = this.item.iid;
         console.log(iid);
@@ -34,7 +28,6 @@
           //高版本router存在的问题
           // console.log(err);
         })
-
       }
     },
     mounted(){

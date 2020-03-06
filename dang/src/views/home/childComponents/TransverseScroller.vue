@@ -49,7 +49,8 @@
         this.scroller = new BScroll(wrapper, {
           probeType: 3,
           scrollX: true,
-          scrollY: false
+          scrollY: false,
+          click:true
         })
       })
     },
