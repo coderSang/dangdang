@@ -22,7 +22,6 @@
       gotoInfo(){
         // 1.获取iid
         let iid = this.item.iid;
-        console.log(iid);
         // 2.跳转到详情页面
         this.$router.push({path: '/info', query: {iid}}).catch(err=>{
           //高版本router存在的问题
@@ -30,12 +29,6 @@
         })
       }
     },
-    mounted(){
-      let b = document.getElementsByClassName("detile");
-      b.onclick=function () {
-        console.log('11');
-      }
-    }
   }
 </script>
 

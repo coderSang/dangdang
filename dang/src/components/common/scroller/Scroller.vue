@@ -35,7 +35,6 @@
       })
 
       this.scroller.on('scroll', (postion) => {
-        //console.log(postion);
         this.$emit('scroll', postion)
       })
 
