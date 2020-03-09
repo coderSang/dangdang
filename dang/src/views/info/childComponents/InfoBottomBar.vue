@@ -9,7 +9,7 @@
         <img src="~assets/images/detail/collect.png" alt="">
         <p>收藏</p>
       </div>
-      <div>
+      <div  @click="addToCart">
         <img src="~assets/images/detail/cart.png" alt="">
         <p>购物车</p>
       </div>
@@ -28,7 +28,11 @@
 <script>
   export default {
     name: "InfoBottomBar",
-
+    methods:{
+      addToCart(){
+        this.$emit("addToCart");
+      }
+    }
   }
 </script>
 
