@@ -1,28 +1,28 @@
 <template>
-  <div id="container" style="height: 300px">
-    <baidu-map style="height: 300px" class="map" :center="center" :zoom="zoom" @ready="handler" ></baidu-map>
+  <div class="category">
+    <div style="height: 65px;width: 100vw"></div>
+    <!--<div class="side-bar">-->
+      <side-bar></side-bar>
+    <!--</div>-->
   </div>
+
 </template>
 
 <script>
+  import SideBar from "./childComponents/SideBar"
   export default {
     name: "Category",
-    data() {
-      return {
-        center: {lng: 120.12, lat: 30.16},
-        zoom: 16,
-      }
+    components:{
+      SideBar
     },
     methods: {
-      handler({BMap, map}) {
-        map.enableScrollWheelZoom(true);
-        window.map = map;
-        window.MyBdMap = BMap
-      }
+
     }
   }
 </script>
 
 <style scoped>
-
+  .category{
+    background-color: #eef3f9;
+  }
 </style>
